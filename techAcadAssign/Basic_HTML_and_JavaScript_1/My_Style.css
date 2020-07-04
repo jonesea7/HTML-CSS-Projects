@@ -5,3 +5,11 @@ p {
 	
 	
 }
+
+.divRed {
+	text-align : center-left;
+	color : blue;
+	font-size : large;
+	background-color : yellow;
+	
+}
