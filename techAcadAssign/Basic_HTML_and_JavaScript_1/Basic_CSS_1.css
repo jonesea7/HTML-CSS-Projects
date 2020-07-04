@@ -3,3 +3,12 @@ p {
 	color: orange;
 	
 }
+
+.goBlueClass {
+	text-align : center;
+	text-decoration : underline ;
+	background-color : darkblue;
+	color : yellow ;
+	font-size : large ;
+	font-weight: bold ;
+}	
