@@ -1,21 +1,34 @@
-/* Add color to table*/
+/*
+	Creator: Eddy Jones
+	Date: July 6, 2020
+	Assignment notes: Create CSS file containing
+						background-color
+						font color
+						hover selector
+						border
+						
+	Self note: Use adobe color to use a complimentary color scheme
+
+*/
+
+/* Border */
 
 table {
-	border : 1px solid silver;
+	border : 14px solid #0452de;
+	text-align : center;
 }
 
 td:hover {
-	background-color : yellow;
-	color : black;
+	background-color : #fff8b2;
+	color : black ;
 }
 
 tr, th {
-	background-color : black;
-	color : cornsilk;
+	background-color : #0592e8;
+	color : white;
 }
 
 tr, td {
-	background-color : darkgreen;
-	color : white;
-	text-align : center;
+	background-color : #fff833;
+	color : gray;
 }
