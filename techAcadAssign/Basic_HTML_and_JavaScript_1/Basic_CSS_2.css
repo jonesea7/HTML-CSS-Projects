@@ -1,3 +1,24 @@
+/*
+	Developer: Eddy Jones
+	Date: July 6, 2020
+	Assignment Objective:
+		1. Style text for Basic_HTML_5.html with the following:
+			color
+			background-color
+			font-size
+			text-align
+		2. Define text-shadow
+			Text shadow is an effect that can be added in CSS. It uses the pixel numbering system to 
+			determine how far the shadow will be moved horizontally with the first pixel assignment, and
+			vertically with the second. For example:
+				p {
+				text-shadow: 2px 2px;}
+				
+			This code will create a shadow that is 2 px horizontally and 2 px down from the text. The set of numbers serve as 
+			a miniture x and y axis for the shadow.
+		3. Add a text-shadow effect 
+*/
+
 
 p {
 	color: Green;
@@ -5,4 +26,13 @@ p {
 	font-size : 150px;
 	text-align : right;
 	
+}
+
+/* I've decided to add the shadow effect to the h1 element */
+
+h1 {
+	text-align: center;
+	background-color: blue;
+	color: yellow;
+	text-shadow: 3px 3px;
 }
