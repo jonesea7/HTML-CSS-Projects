@@ -1,0 +1,53 @@
+/*
+    Developer: Eddy Jones
+    Start date: July 13, 2020
+    Objective:
+        Create CSS script to style basic_css_demo_1.html.
+        - Set up body background color
+        - Color h1 and add text shadow
+         Establish container styling
+         Add images to squares
+*/
+
+body {
+    background-color: #fff;
+}
+
+h1 {
+    color: rgba(8, 141,165, 1);
+    margin-left: 100px;
+    text-shadow: 1px 0.5px 4px rgba(0,0,0,0.6);
+}
+
+.container {
+    width: 450px;
+    height: 450px;
+    background-color: wheat;
+    border: 2px solid black;
+    border-radius: 5%;
+    
+}
+
+.container .squares:nth-child(-n+4) {
+    background-image: url(../images/icons/babyFace100.jpg);
+    color: #fff;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 25%;
+    cursor: pointer;
+}
+
+.container .squares:nth-child(-n+4):hover {
+    background-image: url(../images/icons/wiseFace100.jpg);
+    color: #fff;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 25%;
+    cursor: pointer;
+}

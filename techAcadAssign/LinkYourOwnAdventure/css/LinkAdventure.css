@@ -1,0 +1,37 @@
+/*
+    Developer:Eddy Jones
+    Start Date:
+
+
+*/
+
+body {
+    background-color: floralwhite;
+
+}
+
+#welcome {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    color: black;
+}
+
+#secret-passage {
+    color: floralwhite;
+    text-align: right;
+
+}
+
+#secret-passage:hover {
+    color: rgb(124, 124, 133);
+}
+
+.container {
+    background-color: indianred;
+    width: 450px;
+    height: 450px;
+    border: 2px ivory;
+    border-radius: 100%;
+    margin: auto;
+}
