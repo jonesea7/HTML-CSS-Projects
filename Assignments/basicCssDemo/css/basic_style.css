@@ -68,8 +68,8 @@ h1 {
     background: #4240ff;
 }
 
-.squares:nth-childe(2) {
-    background: #ab3fdd;
+.squares:nth-child(2) {
+    background: #9e3fdd;
 }
 
 .squares:nth-child(3) {
@@ -80,14 +80,31 @@ h1 {
     background: #00b200;
 }
 
+/*
+-------------------------------------------------------------
+
+                    HOVER EFFECTS
+
+--------------------------------------------------------------
+*/
+
 .container .squares:nth-child(-n+4):hover {
     background-image: url(../images/icons/wiseFace.png);
-    color: #fff;
-    float: left;
-    width: 100px;
-    height: 100px;
-    margin: 5px;
-    border: 1px solid black;
-    border-radius: 25%;
-    cursor: pointer;
+   
+}
+
+.squares:nth-child(1):hover {
+    background: #13b4ff;
+}
+
+.squares:nth-child(2):hover {
+    background: #d861af;
+}
+
+.squares:nth-child(3):hover {
+    background: #81205f;
+}
+
+.squares:nth-child(4):hover {
+    background: #77b800;
 }
