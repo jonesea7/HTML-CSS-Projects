@@ -1,0 +1,69 @@
+/* LEARN NAV BUILD IN THE NEXT TUTORIAL*/
+
+
+body, html {
+    height: 100%;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*.bg-image {
+    background-image: url(../images/classicModernSonic.jpg);
+    filter: opacity(47%);
+    height: 100%;
+    background-repeat: repeat;
+    background-position: center;
+   
+}*/
+
+
+
+h1 {
+    font-family: "Bangers", "Arial";
+    font-weight: 900;
+    font-size: x-large;
+    text-align: center;
+    font-style: italic;
+}
+
+
+.image-frame {
+    background-image: url(../images/modernSonic.jpg);
+    height: 300px;
+    width: 165px;
+    border: 1px solid black;
+    border-radius: 29%;
+    transition: transform .5s ease-in-out;
+    filter: opacity(100%);
+    
+    
+    
+}
+
+
+
+.image-frame:hover {
+    background-image: url(../images/classicModernSonic.jpg);
+    animation-name: speed;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(1, 0, 0, 1);
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+   
+    cursor: pointer;
+    
+}
+
+@keyframes speed {
+    0%, 100% {
+        transform: translateX(330px);
+        background-image: url(../images/classicModernSonic.jpg);
+    }
+    
+}
