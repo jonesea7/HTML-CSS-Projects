@@ -1,16 +1,79 @@
 /* LEARN NAV BUILD IN THE NEXT TUTORIAL*/
 
 
-body, html {
-    height: 100%;
-    background-image: url(../images/bg.jpg);
+/*body, html {
+    
+    background-image: url(../images/SonicWallpaper.png);
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -1;
     
+}*/
+
+
+
+
+
+@font-face {
+    font-family: Bangers;
+    src: url(Bangers-Regular.ttf);
+}
+
+body {
+    font-family: Bangers;
+}
+
+.menu li {
+    color: #e6e2de;
+    display: inline;
+    margin-right: -2px;
+    
+    padding: 2px 40px;
+    border: 1px solid #9d9fa2;
+    border-radius: 1.5px;
+    background-color: #2082ee;
+    cursor: pointer;
+}
+
+nav {
+    margin: 0% auto;
+    position: fixed;
+   
+   
+    z-index: 100;
+    display: inline;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home {
+    background-image: url(../images/SonicWallpaper.png);
+    background-attachment:  fixed;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-top: 300px;
+    padding-bottom: 500px;
 }
 
 * {
     box-sizing: border-box;
+}
+
+#large-text {
+    color: whitesmoke;
+    font-size: 300px;
+    text-shadow: 0.5px 2px 4px;
+
 }
 
 /*.bg-image {
@@ -25,13 +88,25 @@ body, html {
 
 
 h1 {
-    font-family: "Bangers", "Arial";
+    font-family: courier;
     font-weight: 900;
-    font-size: x-large;
+    /* font-size: x-large; */
     text-align: center;
-    font-style: italic;
+    /* font-style: italic; */
+    background-color: #2082ee;
+    margin: 0;
+    color: #e6e2de;
+    padding: 25px;
+    border: 25px solid #FF9800;
+    overflow: hidden;
+    
 }
 
+.border-image { 
+    border: 10px double transparent;
+    padding: 15px;
+    border-image: url(../images/border.png) 30 stretch;
+  }
 
 .image-frame {
     background-image: url(../images/modernSonic.jpg);
