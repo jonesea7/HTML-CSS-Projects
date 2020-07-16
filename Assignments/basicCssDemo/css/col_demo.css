@@ -1,0 +1,21 @@
+body {
+    background-color: #cfe4ff;
+}
+
+table, th, td {
+    text-align: center;
+    padding: 3px 40px;
+    position: sticky;
+    border: 1.5px solid black;
+    border-radius: 1.5px;
+    margin: 150px;
+}
+
+.column-gray {
+    background-color: #8aa2c2;
+    color: whitesmoke;
+}
+
+.column-white {
+    background-color: #c2ae8a;
+}
