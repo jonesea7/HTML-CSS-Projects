@@ -73,9 +73,19 @@ nav {
     color: whitesmoke;
     font-size: 300px;
     text-shadow: 0.5px 2px 4px;
+    position: absolute;
+    top: 0px;
 
 }
 
+
+h2 {
+    position: sticky;
+    background-color: #2082ee;
+    left: 300px;
+    color: #e6e2de;
+    z-index: 100;
+}
 /*.bg-image {
     background-image: url(../images/classicModernSonic.jpg);
     filter: opacity(47%);

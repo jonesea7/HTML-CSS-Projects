@@ -156,3 +156,54 @@ section {
 .terms {
     margin-top: 13%;
 }
+
+.head-main {
+    text-shadow: 2px 4px 5px rgba(0, 0,0,0.9);
+    font-variant: small-caps;
+    color: #ffffff;
+    letter-spacing: 5pt;
+    word-spacing: 21pt;
+    font-size: 4.5em;
+    text-align: left;
+    font-family: Impact, sans-serif;
+    line-height: 2;
+    font-weight: 900;
+    border: 5px double #ffffff;
+    padding: 10px;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    background-color: rgba(100,65,0,.3);
+    box-shadow: 2px 2px 10px 0 rgba(0, 0,0,0.5);
+}
+
+#contact {
+    background-color: #f5f3f3;
+}
+
+.reservation {
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    background-color: rgba(100,65,0,.3);
+    box-shadow: -1px -1px 1px 0 rgba(0, 0,0,0.1), 1px 2px 10px 0 rgba(0, 0,0,0.5);
+
+}
+
+.reservation h2 {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    color: #13161b;
+    font-weight: 500;
+    font-size: 1.3em;
+    letter-spacing: 0pt;
+    word-spacing: 0pt;
+}
