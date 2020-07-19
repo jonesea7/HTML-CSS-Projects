@@ -1,0 +1,30 @@
+/*
+    Developer: Eddy Jones
+    Start Date: July 19, 2020
+    Objective:
+        Add CSS styling to an older assignment HTML_Img.html
+        
+        add font-family and font-size
+        for inputs:
+            width
+            margin
+            border
+            border-radius
+        
+*/
+
+body {
+    font-family: 'Gill Sans';
+    font-size: larger;
+}
+
+input {
+    width: 300px;
+    margin: 10px auto;
+    border: 1px solid black;
+    border-radius: 6%;
+}
+
+li {
+    list-style-type: none;
+}
