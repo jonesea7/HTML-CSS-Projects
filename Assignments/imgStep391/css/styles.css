@@ -5,7 +5,30 @@ OBJECTIVES:
 1. Center an image.
 2. Apply filter.
 3. Apply rounded edges
+    4. Create footer
+    5. Style text:
+        Centered
+        Bold
+    6.Table border, padding, bg-color top row
 */
+
+.container#text-overlay-container {
+    position:relative;
+    text-align: center;
+    color: orange;
+   
+}
+
+#text-overlay {
+    font-family: Impact;
+    position: absolute;
+    font-weight: 900;
+    font-size: 330px;
+    top: 17%;
+    z-index: 100;
+    left: 10%;
+    opacity: 0.5;
+}
 
 img {
    
@@ -14,6 +37,7 @@ img {
     border-radius: 50%;
     border: 2px dotted black;
 }
+
 
 .center {
     display:block;
@@ -26,3 +50,51 @@ img {
 .center#nameBanner {
     margin-top: 5%;
 }
+
+footer ul {
+    background-color: blue;
+    color: white;
+    list-style:none;
+    display: block;
+    font-weight: 900;
+    text-align:center;
+    margin-top: 12%;
+    padding: .5% 0;
+}
+
+li {
+    
+    margin-top: 2%;
+}
+
+li:hover {
+    color:orange;
+}
+
+table {
+    width: 50%;
+    border: 2px solid black;
+    margin: 9%;
+    margin-left:auto;
+    margin-right:auto;
+    
+
+}
+
+th {
+    background-color: blue;
+    color: ghostwhite;
+    text-align: left;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+tr,th,td {
+    padding: 2px 10px;
+    border: 1px solid #ddd;
+    
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}

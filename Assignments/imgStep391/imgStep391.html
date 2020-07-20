@@ -5,6 +5,8 @@
         1. Center an image.
         2. Apply filter.
         3. Apply rounded edges
+        4. Add footer
+        5. Add Table
 -->
 
 
@@ -21,12 +23,36 @@
 </head>
     <body>
 
-        <div class="container">
+        <div class="container" id="text-overlay-container">
+            <h1 id="text-overlay">SONIC</h1>
             <img src="img/sonicLogo.png" alt="Sonic Logo" class="center"/>
             <img src="img/nameBanner.png" alt="Name Banner" class="center" id="nameBanner"/>
         </div>
 
+        <div class="container">
+            <table>
+                <tr>
+                    <th>Character</th>
+                    <th>Catch phrase</th>
+                </tr>
+                <tr>
+                    <td>Sonic</td>
+                    <td>"Gotta' go fast!"</td>
+                </tr>
+                <tr>
+                    <td>Tails</td>
+                    <td>"Sooooonic!"</td>
+                </tr>
+            </table>
+        </div>
 
+        <footer>
+            <ul>
+                <li>Contact</li>
+                <li>Eddy, Inc. &nbsp;|&nbsp;&nbsp;&copy;2020</li>
+            </ul>
+        </footer>
     </body>
+    
 
 </html>
