@@ -20,10 +20,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link text-light" href="#">About</a>
+                        <a class="nav-link text-light" href=#about>About</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link text-light" href="#">Showtimes</a>
+                        <a class="nav-link text-light" href=#showtimes>Showtimes</a>
                     </li>
 
                     <li class="nav-item active">
@@ -51,11 +51,11 @@
 
                 <img class="img-fluid" src="./img/portland.jpg" alt="Portland Stag" />
 
-                
+
             </div>
 
 
-            <div class="col-sm">
+            <div class="col-sm" id="about">
 
                 <h3>Accomodations:</h3>
                 <p>Located in beautiful Proland, Oregon's Pearl district, our reels have been spinning since 1959.</p>
@@ -69,29 +69,116 @@
 
             <div class="col-sm">
 
-
-
+                <h3>Now Playing:</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <a class="nav-link" href="">Kong: Skull Island</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="nav-link" href="">Ghost in a Shell</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="nav-link" href="">Beauty and the Beast</a>
+                    </li>
+                </ul>
             </div>
-
-
         </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  
+    </div>
 
+    <!-- showtimes -->
+
+    <div class="container">
+        <div class="card-group my-5" id="showtimes">
+            <div class="card">
+                <img class="card-img-top" src="./img/kongskullisland.jpg" alt="Card image cap">
+                <div class="card-block p-2">
+                    <h4 class="card-title">Kong: Skull Island</h4>
+                    <p>
+                        A team of scientists explore an uncharted island in the Pacific,
+                        venturing into the domain of the mighty Kong, and must fight to escape primal Eden.
+                    </p><br />
+                    <span class="badge badge-pill badge-info sm">12:00pm</span>
+                    <span class="badge badge-pill badge-info">1:30pm</span>
+                    <span class="badge badge-pill badge-info">3:00pm</span>
+                    <span class="badge badge-pill badge-info">5:30pm</span>
+                    <span class="badge badge-pill badge-info">7:00pm</span>
+                    <span class="badge badge-pill badge-info">9:30pm</span>
+                </div>
+                <div class="card-footer p-0">
+                    <small class="text-muted mx-auto">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card mx-5" style="border-left: 1px solid rgba(0,0,0,.125);">
+                <img class="card-img-top" src="./img/ghostintheshell.jpg" alt="Card image cap">
+                <div class="card-block p-2">
+                    <h4 class="card-title">Ghost in the Shell</h4>
+                    <p>
+                        In the near future, Major Mila Killian is the first of her kind:
+                        a human saved from a terrible crash, who is cber-enhanced to be a perfect soldier devoted
+                        to stopping the world's most dangerous criminals.
+                    </p>
+                    <span class="badge badge-pill badge-info">12:00pm</span>
+                    <span class="badge badge-pill badge-info">1:30pm</span>
+                    <span class="badge badge-pill badge-info">3:00pm</span>
+                    <span class="badge badge-pill badge-info">5:30pm</span>
+                    <span class="badge badge-pill badge-info">7:00pm</span>
+                    <span class="badge badge-pill badge-info">9:30pm</span>
+                </div>
+                <div class="card-footer p-0">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card" style="border-left: 1px solid rgba(0,0,0,.125);">
+                <img class="card-img-top" src="./img/beautyandthebeast.jpg" alt="Card image cap">
+                <div class="card-block p-2">
+                    <h4 class="card-title">Beauty and the Beast</h4>
+                    <p>
+                        A selfish prince is cused to become a monster for the rest of his life,
+                        unless he learns to fall in love with a woman he keeps as prisoner.
+                    </p><br />
+                    <span class="badge badge-pill badge-info">12:00pm</span>
+                    <span class="badge badge-pill badge-info">1:30pm</span>
+                    <span class="badge badge-pill badge-info">3:00pm</span>
+                    <span class="badge badge-pill badge-info">5:30pm</span>
+                    <span class="badge badge-pill badge-info">7:00pm</span>
+                    <span class="badge badge-pill badge-info">9:30pm</span>
+                </div>
+                <div class="card-footer p-0">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- end showtimes -->
+
+    <div class="text-center">
+        <form>
+            <h1 class="text-primary my-5">Sign up for Movie Club Rewards!</h1>
+            <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <div class="container my-5">
+        <ul class="nav nav-inline">
+            <li class="nav-item">
+                <small><a class="nav-link active" href="#">Movie Rewards</a></small>
+            </li>
+            <li class="nav-item">
+                <small><a class="nav-link active" href="#">Movies@news.org</a></small>
+            </li>
+            <li class="nav-item">
+                <small><a class="nav-link active" href="#">Info@academycinemas.com</a></small>
+            </li>
+            <li class="nav-item">
+                <small><a class="nav-link active" href="#">&copy;2020 Academy Cinemas&reg;</a></small>
+            </li>
+        </ul>
     </div>
 
 
@@ -105,5 +192,5 @@
 
 
 
-    </body>
+</body>
 </html>
