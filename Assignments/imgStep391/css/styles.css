@@ -10,7 +10,47 @@ OBJECTIVES:
         Centered
         Bold
     6.Table border, padding, bg-color top row
+    7. Navbar with bg-color, font color, hover effect
 */
+
+nav {
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 101;
+    padding: 14px 16px
+}
+
+.nav-float-left {
+    float: left;
+}
+
+#nav-float-right {
+    float: right;
+    padding-right: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+li a {
+    display: block;
+    padding: inherit;
+    text-align: center;
+    text-decoration: none;
+    color: ghostwhite;
+    
+}
+
+li a:hover {
+    background-color: #1c1c8e;
+
+}
 
 .container#text-overlay-container {
     position:relative;
