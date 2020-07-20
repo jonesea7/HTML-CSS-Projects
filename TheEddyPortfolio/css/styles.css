@@ -1,0 +1,55 @@
+body {
+    font-family: Avenir,Garamond;
+    margin: 0;
+  
+}
+
+#home {
+    background: url(../img/LoneActor.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 350px;
+    padding-bottom: 500px;
+    color: #ffffff;
+
+
+}
+
+
+
+#curtain {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 800px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 400px;
+    top: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
