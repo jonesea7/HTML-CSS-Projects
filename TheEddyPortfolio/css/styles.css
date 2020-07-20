@@ -18,6 +18,31 @@ body {
 
 }
 
+#raise {
+    left: 50%;
+   
+
+}
+
+.reveal {
+    position: absolute;
+    animation: appear 2s forwards;
+    animation-delay: 2s;
+    opacity: 0;
+}
+
+span .reveal:hover {
+    animation: appear 1s;
+    opacity:0;
+}
+
+
+
+@keyframes appear{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
 
 
 #curtain {
@@ -52,4 +77,34 @@ li a {
 
 li a:hover {
     background-color: #111;
+}
+
+.text-box {
+    text-shadow: 2px 4px 5px rgba(0, 0,0,0.9);
+    font-variant: small-caps;
+    color: #ffffff;
+    letter-spacing: 5pt;
+    font-size: 3.5em;
+    text-align: left;
+    line-height: 2;
+    margin-left: 12%;
+    display: flex;
+}
+
+#text-modify {
+    font-size: .65em;
+    margin-left: 17%;
+    margin-top: 6%;
+}
+
+#text-modify2 {
+    margin-top: 8%;
+    margin-left: -8%;
+    font-size: 1.55em;
+}
+
+@media screen and (max-width: 600px) {
+    span {
+        font-size:30px;
+    }
 }
