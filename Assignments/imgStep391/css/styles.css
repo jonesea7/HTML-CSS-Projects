@@ -1,0 +1,28 @@
+/*
+DEVELOPER: EDDY JONES
+START DATE: July 20, 2020
+OBJECTIVES:
+1. Center an image.
+2. Apply filter.
+3. Apply rounded edges
+*/
+
+img {
+   
+    filter: hue-rotate(75deg);
+    background-color: blue;
+    border-radius: 50%;
+    border: 2px dotted black;
+}
+
+.center {
+    display:block;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.center#nameBanner {
+    margin-top: 5%;
+}
