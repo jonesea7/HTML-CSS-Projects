@@ -178,10 +178,15 @@ p {
     padding: 10%;
 }
 
+#id {
+    font-size: 4vw;
+}
+
 .band {
-    width: 90%;
+    width: 35%;
     max-width: 1240px;
     margin: 0 auto;
+    margin-bottom: 12%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -251,4 +256,8 @@ article {
     background-image:url(../img/pythonLogo.jpg);
 }
 
+footer {
+    padding:2%;
+    background-color: #ccc7d1;
 
+}
