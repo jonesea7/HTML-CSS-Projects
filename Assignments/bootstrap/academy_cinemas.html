@@ -58,7 +58,7 @@
             <div class="col-sm" id="about">
 
                 <h3>Accomodations:</h3>
-                <p>Located in beautiful Proland, Oregon's Pearl district, our reels have been spinning since 1959.</p>
+                <p>Located in beautiful Portland, Oregon's Pearl district, our reels have been spinning since 1959.</p>
                 <p>Showing our guests a great time is our passion and seeing their smiles is our pleasure!</p>
                 <p>All o f our auditoriums are equipped with brand new Christie 3D&reg; sound systems!</p>
                 <p>Relax in our, extra-wide, plush cushioning recliners. Our seating arrangement is disability friendly &#9855;.</p>
@@ -148,23 +148,83 @@
                 </div>
             </div>
         </div>
-    </div>
-    
+        <!-- end showtimes -->
 
-
-    <!-- end showtimes -->
-
-    <div class="container">
-        <div class="text-center">
-            <form>
-                <h1 class="text-primary my-5" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">SIGN UP FOR MOVIE CLUB REWARDS</h1>
-                <div class="form-group">
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <div class="jumbotron jumbo-fluid bg-info align-items-center">
+                <div class="container">
+                    <h1 class="display-4 text-light text-center">MOVIE REWARDS CLUB</h1>
+                    <p class="text-light text-center">Check out our monthly deals!</p>
+                    <button style="display: block; width: 200px;"  class="btn btn-primary text-center mx-auto mt-4"  data-toggle="modal" data-target="#myModal">Click here to get started.</button>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+            </div>
+    </div>
+
+    <!-- signup form-->
+
+    <div class="row">
+        <div class="container text-center col-md-6" id="deals">
+            <div class="container text-center">
+                <h1 class="display-5 my-4 col-lg-auto text-primary">Stay current on movies!</h1>
+                <div class="input-group mb-5">
+                    <input type="text" class="form-control" placeholder="Email">
+                    <span class="input-group-btn">   
+                        <button type="button" class="btn btn-primary popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content="Don't wait, sign up today.">
+                            Sign up
+                        </button>
+                    </span>
+                </div>
+            </div>
         </div>
     </div>
+
+    <!-- end signup form-->
+
+  
+
+  
+  <!-- Modal -->
+    
+        <div class="modal" tabindex="-1" role="dialog" id="myModal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Register for movie deals...</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                
+                        <form>
+                            <div class="form-group">
+                              <label for="firstname">First Name</label>
+                              <input type="text" class="form-control" id="firstname" placeholder="First name...">
+                            </div>
+                            <div class="form-group">
+                              <label for="lastname">Last name</label>
+                              <input type="text" class="form-control" id="lastname" placeholder="Last name...">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="text" class="form-control" id="email" placeholder="Email...">
+                              </div>
+                              <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="text" class="form-control" id="password" placeholder="Password...">
+                              </div>
+                        </form>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+
+    <!-- end modal -->
 
     <blockquote class="blockquote text-center my-5">
         <p class="mb-0">"Our films are affordable like our bootcamps.<br> We live our motto:<br> Wholesome fun, half the price!"</p>
@@ -195,7 +255,17 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
+    <script>
 
+        $('.popover-dismiss').popover({
+            trigger: 'hover'
+        });
+
+        /*$('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
+        });*/
+
+    </script>
 
 
 
